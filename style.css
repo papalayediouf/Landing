@@ -1,0 +1,50 @@
+
+.burger{
+    width: 4rem;
+}
+
+header{
+    background-image: url(img/img1-1.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    height: 80vh;
+}
+.black{
+    background-color: rgb(1, 1, 1,0.6);
+    height: 100%;
+}
+.taco{
+    font-size: 130px;
+    color: white;
+    font-weight: 500;
+    margin-right: 50%;
+}
+/* .decal{
+    margin-left:;
+} */
+/* section */
+.celebration{
+    font-size: 30px;
+}
+/* interieur */
+#interieur{
+    background-image: url(img/img3-1.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+/* suscribe */
+#suscribe{
+    background-image: url(img/img1-1.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+}
+.boutt{
+    width: 300px;
+}
+.inpp{
+    width: 300px;
+}
+
