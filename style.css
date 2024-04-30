@@ -1,4 +1,11 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1PX solid red; */
+}
+
+
 .burger{
     width: 4rem;
 }
@@ -6,7 +13,7 @@
 header{
     background-image: url(img/img1-1.jpg);
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     height: 80vh;
 }
@@ -14,11 +21,19 @@ header{
     background-color: rgb(1, 1, 1,0.6);
     height: 100%;
 }
+.decal{
+    margin-right: 0;
+}
 .taco{
-    font-size: 130px;
+    font-size: 250px;
     color: white;
     font-weight: 500;
-    margin-right: 50%;
+    margin-right: 40%;
+}
+@media screen and (max-width:800px) {
+    .taco{
+        font-size: 100px;
+    }
 }
 /* .decal{
     margin-left:;
@@ -32,6 +47,8 @@ header{
     background-image: url(img/img3-1.jpg);
     height: 80vh;
     background-position: center;
+    background-attachment: fixed;
+
     background-size: cover;
 }
 /* suscribe */
@@ -42,9 +59,49 @@ header{
     background-size: cover;
 }
 .boutt{
-    width: 300px;
+    width: 500px;
 }
 .inpp{
     width: 300px;
 }
+@media screen and (max-width:880px) {
+    .boutt{
+          width:290px;
+    }
+}
+/* autentic */
+#autentic{
+
+}
+@media screen and (max-width:880px) {
+    .divv{
+          padding: 0px;
+          margin: 0px;
+          font-size: 10px;
+    }
+}
+
+.jaune{
+    height: 290px;
+    width: 100%;
+    background-color: rgb(255, 196, 0);
+    position: absolute;
+    bottom: 65px;
+    left: 0px;
+    z-index: -1;
+}
+
+
+@media screen and (max-width:775px) {
+    .jaune{
+          height: 325px ;
+      
+    }
+}
+
+.tran{
+    background-color: rgb(1, 1, 1,);
+    --bs-bg-opacity: .5;
+}
+
 
